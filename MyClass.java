@@ -1,0 +1,13 @@
+public class MyClass {
+    void printHello() {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Hello java");
+        }
+    }
+
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        obj.printHello();
+    }
+    
+}
